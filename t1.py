@@ -6,7 +6,7 @@ from collections import deque
 
 pygame.init()
 
-# ─── Screen / Layout ──────────────────────────────────────────────────────────
+# ─── Screen / Layout ────────────────────────────────────────────────────────
 SCREEN_W, SCREEN_H = 1100, 720
 PANEL_X  = 760
 PANEL_W  = SCREEN_W - PANEL_X
@@ -15,7 +15,7 @@ ROAD_W   = 130          # wider road = more zoomed-in look
 CX       = PANEL_X // 2
 CY       = SCREEN_H // 2
 
-# ─── Colours ──────────────────────────────────────────────────────────────────
+# ─── Colours ────────────────────────────────────────────────────────────────
 ASPHALT_COLOR   = (52, 52, 58)
 ROAD_COLOR      = (38, 38, 44)
 BG_COLOR        = (45, 100, 45)
